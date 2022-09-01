@@ -15,8 +15,8 @@ namespace Cartas
             baraja.NumeroCartas();
             Console.WriteLine("Roba carta:");
             baraja.RobaCarta();
-            Console.WriteLine("Teclea una carta que quieras coger:");
-            baraja.CogeCarta(int.Parse(Console.ReadLine()));
+            Console.WriteLine("Coge carta:");
+            baraja.CogeCarta(5);
             Console.WriteLine("Carta aleatoria:");
             baraja.CogeCartaAlAzar();
             Console.WriteLine("Listado de cartas:");
